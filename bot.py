@@ -18,10 +18,10 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 
 # Загружаем переменные окружения
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8887120621:AAFooZnbT2eypcxk-ksKr8c6TjF-JZiWNEs")
 
 # ТВОЙ Telegram ID (узнай у @userinfobot)
-AUTHORIZED_USER_ID = 123456789  # ЗАМЕНИ!
+AUTHORIZED_USER_ID = 1908250518  # ЗАМЕНИ!
 
 # Настройка логирования
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
